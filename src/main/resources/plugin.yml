@@ -1,0 +1,21 @@
+name: ShopFinder
+version: '${project.version}'
+main: me.ltommi.shopfinder.Main
+api-version: 1.19
+depend: [QuickShop]
+commands:
+  findshop:
+    description: findshop
+    usage: /<command>
+  debug:
+    description: semmi
+    usage: /<command>
+
+permissions:
+  shopfinder.item:
+    description: search for item
+  shopfinder.name:
+    description: search for named item
+  shopfinder.hand:
+    description: search for handheld item
+

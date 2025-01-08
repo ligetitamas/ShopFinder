@@ -1,0 +1,13 @@
+invalidArgs: "&cError: Invalid arguments. Try: /findshop [item/name] [text] or /findshop [hand]"    #Invalid arguments error while running the findshop command
+noPermission: "&cError: You don't have permission to use this command!"                             #Player doesn't have permission to run the command
+
+
+
+#gui related messages
+guiName: "&aFiltered shops for your search"                                                         #GUI title
+prevPage: "Previous page"
+nextPage: "Next page"
+# placeholder for the item's price: %price%
+itemLore:
+  - ""
+  - "&aPrice: %price% coin"

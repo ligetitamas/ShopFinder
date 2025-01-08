@@ -1,0 +1,34 @@
+#ShopFinder 1.0
+
+#A simple bridge between QuickShop and PLAYERWARPS
+#In order for this plugin to work you must use MySQL in QuickShop for data storing
+#Might or might not update this option in the future
+
+#Permissions:
+# shopfinder.item - searches for item with the provided material name
+# shopfinder.name - searches for item whose display name contains the provided name
+# shopfinder.hand - searches for the exact handheld item
+
+#MySQL
+host: localhost
+port: 3306
+database: ""
+user: root
+password: ""
+QuickShopTable: ""
+
+#max distance between a warp and shop
+maxDistance: 50
+
+#GUI related configuration
+gui:
+  prevPage:
+    material: ARROW
+    customModelData: null
+  nextPage:
+    material: ARROW
+    customModelData: null
+  fill:
+    material: RED_DYE
+    customModelData: null
+
