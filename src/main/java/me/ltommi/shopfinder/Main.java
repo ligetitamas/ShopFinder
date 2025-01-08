@@ -1,5 +1,6 @@
 package me.ltommi.shopfinder;
 
+import com.ghostchu.quickshop.api.QuickShopAPI;
 import com.olziedev.playerwarps.api.PlayerWarpsAPI;
 import me.ltommi.shopfinder.commands.FindShop;
 import org.bukkit.Bukkit;
@@ -7,7 +8,7 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.maxgamer.quickshop.api.QuickShopAPI;
+
 
 import java.io.File;
 

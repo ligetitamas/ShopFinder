@@ -1,8 +1,9 @@
 package me.ltommi.shopfinder.utils;
 
+import com.ghostchu.quickshop.api.shop.Shop;
 import com.olziedev.playerwarps.api.warp.Warp;
 import org.bukkit.inventory.ItemStack;
-import org.maxgamer.quickshop.api.shop.Shop;
+
 
 public class FilteredShops {
     public FilteredShops(Shop shop, Warp warp){
