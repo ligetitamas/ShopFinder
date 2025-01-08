@@ -2,7 +2,7 @@ name: ShopFinder
 version: '${project.version}'
 main: me.ltommi.shopfinder.Main
 api-version: 1.21
-depend: [QuickShop]
+depend: [QuickShop-Hikari]
 commands:
   findshop:
     description: findshop
