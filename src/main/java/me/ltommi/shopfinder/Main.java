@@ -22,7 +22,7 @@ public final class Main extends JavaPlugin {
         LoadConfig();
         Plugin plugin = Bukkit.getPluginManager().getPlugin("QuickShop");
         if(plugin != null){
-            qsapi= (QuickShopAPI)plugin;
+            qsapi= QuickShopAPI.getInstance();
         }
         plugin = Bukkit.getPluginManager().getPlugin("PlayerWarps");
         if(plugin != null){
